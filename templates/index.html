@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Weather Dashboard</title>
+    <title>JokeHub</title>
 </head>
 <body>
-    <h1>Weather Dashboard</h1>
+    <h1>JokeHub</h1>
 
-    {% for city in cities %}
-        <div>
-            <h2>{{ city.name }}</h2>
-            <p>{{ city.temp }} — {{ city.desc }}</p>
-        </div>
-        <hr>
-    {% endfor %}
-
+    <h2>{{ joke.category }}</h2>
+    <p><strong>{{ joke.setup }}</strong></p>
+    <p>{{ joke.punchline }}</p>
 </body>
 </html>
