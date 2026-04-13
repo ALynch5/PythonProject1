@@ -66,6 +66,13 @@ def api_joke():
 def health():
     return jsonify({"status": "OK"})
 
+@app.route("/status")
+def status():
+    return jsonify({
+        "database": "ok",
+        "api": "ok"
+    })
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
