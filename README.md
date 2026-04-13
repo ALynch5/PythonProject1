@@ -2,7 +2,7 @@
 
 ## Team
 - Alex Lynch - 124340181
-- Colin Molloy - 
+- Colin Molloy - 124320846
 - Robert Barrett - 124385211
 
 ## What this project is
