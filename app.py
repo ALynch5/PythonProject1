@@ -11,14 +11,18 @@ app = Flask(__name__)
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 
+
 def get_category():
+
     try:
         with psycopg.connect(DATABASE_URL) as conn:
             with conn.cursor() as cur:
+                assert isinstance(cur, object)
                 cur.execute("SELECT name FROM categories LIMIT 1")
                 row = cur.fetchone()
                 if row:
                     return row[0]
+
     except Exception as e:
         print("Database error:", e)
 
