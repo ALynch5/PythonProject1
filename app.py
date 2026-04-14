@@ -66,6 +66,7 @@ def api_joke():
 def health():
     return jsonify({"status": "OK"})
 
+
 @app.route("/status")
 def status():
     return jsonify({
