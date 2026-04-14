@@ -59,7 +59,7 @@ This was our first time working with APIs, Docker, and CI/CD, so we focused on k
 ## Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/ALynch5/PythonProject1.git
+git clone https://github.com/ALynch5/PythonProject1
 cd PythonProject1
 
 2. Create a virtual environment:
