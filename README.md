@@ -55,3 +55,26 @@ We used:
 
 ## Notes
 This was our first time working with APIs, Docker, and CI/CD, so we focused on keeping everything simple and working correctly rather than making it complex.
+
+## Setup Instructions
+
+1. Clone the repository:
+git clone https://github.com/ALynch5/PythonProject1
+cd PythonProject1
+
+2. Create a virtual environment:
+py -m venv .venv
+.\.venv\Scripts\Activate
+
+3. Install the dependencies:
+pip install -r requirements.txt
+
+Make sure to create a `.env` file with your DATABASE_URL before running the app.
+
+## Running the App
+
+Run the app:
+python app.py
+
+Open:
+http://localhost:5000
